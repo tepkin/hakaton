@@ -1,0 +1,24 @@
+{
+  "project": {"name": "Пилотный объект", "territory_type": "T1"},
+  "run": {"seed": 42, "range_policy": "max"},
+  "gen": {"tree_spacing": 5.0, "shrub_spacing": 1.5, "tree_shrub_min": 2.0,
+          "max_trees": 60, "max_shrubs": 80, "road_near_m": 8.0},
+  "budget": {"mode": "tsn_norm", "manual_value_mln": 20.0, "manual_unit": "mln_total", "policy": "warn"},
+  "layers": {"trees": "GREEN_AI_TREES", "shrubs": "GREEN_AI_SHRUBS",
+             "zones_allowed": "GREEN_AI_ZONES_ALLOWED", "zones_forbidden": "GREEN_AI_ZONES_FORBIDDEN"},
+  "export": {"tree_radius": 3.0, "shrub_radius": 1.0, "text_height": 1.0},
+  "layer_patterns": {
+    "boundary": ["граница", "boundary", "border"],
+    "buildings": ["здание", "строени", "building", "build"],
+    "roads": ["проезж", "трамвай", "дорожн", "road", "street", "улиц"],
+    "sidewalks": ["тротуар", "пешеход", "sidewalk"],
+    "water_pipe": ["люк", "водопровод", "канализ", "теплосет", "инженерн", "water", "sewage", "heat"],
+    "gas": ["газопровод", "газ", "gas"],
+    "cable": ["кабел", "связ", "cable"],
+    "power_line": ["лэп", "воздушн", "power", "electr"],
+    "existing_trees": ["дерево", "насажд", "дендро", "tree"],
+    "existing_shrubs": ["кустар", "shrub"]
+  },
+  "layer_mapper": {"auto_threshold": 0.55, "profile": "default"},
+  "dwg": {"enabled": true, "converter_path": "", "cache_dir": "out/dwg_cache"}
+}

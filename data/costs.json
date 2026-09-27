@@ -1,0 +1,9 @@
+{
+  "coeffs": {"KM": 2.5, "KB": 3.3, "KV": 1.0, "index_build": 9.18, "design": 1.05,
+             "compensatory_mult": 2.0, "unit_div": 4.0, "recount": 4.9665},
+  "unit_price": {"1": 9280.0, "2": 7680.0, "3": 4951.0, "4": 4095.0, "5": 1673.35},
+  "compensation_base": {"tree": 5165.82, "shrub_or_grass": 1673.35, "grass_m2": 73.05},
+  "works": {"tree_pc": 12000.0, "shrub_pc": 3000.0},
+  "fertilizer": {"tree_kg_per_pc": 0.05, "shrub_kg_per_pc": 0.01, "lawn_kg_per_m2": 0.05},
+  "tsn_budget": {"street_district_per_ha": [20000000, 25000000], "renovation_block_total": 50000000}
+}

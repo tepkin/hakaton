@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "species": [
+    {"id": "TR-001", "name": "Липа мелколистная", "latin": "Tilia cordata", "type": "tree", "value_code": 2, "territories": ["T1","T2","T3","T4","T5","T6","T7","T8"], "tags": []},
+    {"id": "TR-002", "name": "Клён остролистный", "latin": "Acer platanoides", "type": "tree", "value_code": 3, "territories": ["T1","T2","T3","T4","T5","T6","T7","T8"], "tags": []},
+    {"id": "TR-003", "name": "Ель колючая", "latin": "Picea pungens", "type": "tree", "value_code": 1, "territories": ["T1","T2","T3","T4","T5","T6","T7","T8"], "tags": []},
+    {"id": "TR-004", "name": "Ель обыкновенная", "latin": "Picea abies", "type": "tree", "value_code": 1, "territories": ["T1","T2","T3","T4","T7"], "tags": ["road_sensitive"]},
+    {"id": "TR-005", "name": "Рябина обыкновенная", "latin": "Sorbus aucuparia", "type": "tree", "value_code": 3, "territories": ["T1","T5","T6","T7","T8"], "tags": []},
+    {"id": "TR-006", "name": "Ива белая", "latin": "Salix alba", "type": "tree", "value_code": 4, "territories": ["T5","T6","T7","T8"], "tags": ["water"]},
+    {"id": "TR-007", "name": "Берёза повислая", "latin": "Betula pendula", "type": "tree", "value_code": 4, "territories": ["T1","T2","T3","T5","T6","T7","T8"], "tags": []},
+    {"id": "SH-001", "name": "Дёрен белый", "latin": "Cornus alba", "type": "shrub", "value_code": 5, "territories": ["T1","T2","T4","T5","T6","T7","T8"], "tags": []},
+    {"id": "SH-002", "name": "Гортензия метельчатая", "latin": "Hydrangea paniculata", "type": "shrub", "value_code": 5, "territories": ["T1","T2","T3","T4","T5","T7","T8"], "tags": []},
+    {"id": "SH-003", "name": "Пузыреплодник калинолистный", "latin": "Physocarpus opulifolius", "type": "shrub", "value_code": 5, "territories": ["T1","T2","T3","T4","T5","T6","T7","T8"], "tags": []},
+    {"id": "SH-004", "name": "Спирея японская", "latin": "Spiraea japonica", "type": "shrub", "value_code": 5, "territories": ["T1","T2","T3","T4","T5","T6","T7","T8"], "tags": []},
+    {"id": "SH-005", "name": "Кизильник блестящий", "latin": "Cotoneaster lucidus", "type": "shrub", "value_code": 5, "territories": ["T1","T2","T3","T4","T5","T6","T7","T8"], "tags": []}
+  ]
+}
