@@ -1,0 +1,8 @@
+services:
+  greenplan:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./examples:/app/examples
+      - ./out:/app/out
